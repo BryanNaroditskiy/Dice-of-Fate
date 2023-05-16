@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="DiceGame.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:DiceGame"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar x:Name="MyTabBar">
+        <Tab Title="Home" Icon="house_solid.svg">
+            <ShellContent
+            Title=""
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+        </Tab>
+        <Tab Title="Help" Icon="circle_info_solid.svg">
+            <ShellContent
+            Title=""
+            ContentTemplate="{DataTemplate local:Help}"
+            Route="Help" />
+        </Tab>
+        <Tab Title="Settings" Icon="gear_solid.svg">
+            <ShellContent
+            Title=""
+            ContentTemplate="{DataTemplate local:Settings}"
+            Route="Settings" />
+        </Tab>
+    </TabBar>
+    
+    <!--<ShellContent
+        Title=""
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />-->
+
+</Shell>
