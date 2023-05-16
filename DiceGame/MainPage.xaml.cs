@@ -1,10 +1,7 @@
 ﻿/*
  * DiceGame MainPage.xaml.cs
  * Logic associated with MainPage.xaml
- * Author- Cameron Grande
- * Date Developed- 9/26/22
- * Last Changed- 5/14/23
- * Rev: 3
+ * Author- Bryan Naroditskiy
  */
 
 namespace DiceGame;
